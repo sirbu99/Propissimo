@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Propissimo.Api/Propissimo.Api.csproj" />
+    <Project Path="src/Propissimo.Application/Propissimo.Application.csproj" />
+    <Project Path="src/Propissimo.Domain/Propissimo.Domain.csproj" />
+    <Project Path="src/Propissimo.Infrastructure/Propissimo.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Propissimo.Domain.UnitTests/Propissimo.Domain.UnitTests.csproj" />
+  </Folder>
+</Solution>
