@@ -74,7 +74,7 @@ Property → RentalContract → ContractRenter → Renter
              Payment
 ```
 
-A property can have several active rental contracts at the same time (shared apartments), and a contract can have several renters, one of whom is the primary contact.
+A property has one rental contract at a time, with the full contract history kept. A contract can have several renters, optionally with one of them as the primary contact. See [DOMAIN-MODEL.md](DOMAIN-MODEL.md) for the complete model.
 
 SQL Server LocalDB is used for local development, as it runs the same engine as Azure SQL.
 
