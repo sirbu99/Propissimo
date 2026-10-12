@@ -5,5 +5,8 @@ public enum DomainExceptionCode
 {
     MoneyNegativeAmount,
     MoneyInvalidCurrency,
-    MoneyTooManyDecimals
+    MoneyTooManyDecimals,
+    AddressCountryRequired,
+    AddressCityRequired,
+    AddressStreetRequired
 }
