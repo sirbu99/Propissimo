@@ -8,5 +8,8 @@ public enum DomainExceptionCode
     MoneyTooManyDecimals,
     AddressCountryRequired,
     AddressCityRequired,
-    AddressStreetRequired
+    AddressStreetRequired,
+    IbanInvalidFormat,
+    IbanRequired,
+    IbanInvalidChecksum
 }
