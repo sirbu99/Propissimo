@@ -199,7 +199,7 @@ Value objects have no identity of their own, are compared by value and are immut
 
 | Value object | Contents | Rules |
 |---|---|---|
-| **Address** | Country, City, Street, Number, Building, Floor, Apartment, PostalCode | City and street are required |
+| **Address** | Country, City, Street, Number, Building, Floor, Apartment, PostalCode | Country, city and street are required |
 | **Money** | Amount (`decimal`), Currency | Amount is not negative; amounts in different currencies cannot be combined |
 | **Iban** | IBAN string | Valid format and check digits (ISO 13616, mod 97) |
 
